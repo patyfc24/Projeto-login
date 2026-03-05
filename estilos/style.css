@@ -59,30 +59,56 @@ div#formulario > h1 {
 }
 div#formulario > p {
     font-size: 0.8em;
+    margin: 3px 0px;
+
 }
+div.campo >input:focus-within {
+    background-color: #DADADA;
+    border: none;
+}
+
 form > div.campo {
 background-color: #86858B82;
+border: 2px solid #86858B82;
 display: block;
 width: 100%;
 height: 40%;
-border-radius: 5px;
+border-radius: 8px;
 margin: 5px 0px;
 }
 div.campo > label { /*resolvi problema da senha indo para baixo*/
     display: none;
 
 }
+div.campo > span.material-symbols-outlined {
+    color: white;
+    font-size: 1.2em;
+    width: 28px;
+    padding: 4px;
+}
+
+div.campo > input {
+    background-color: #B9B9BD;
+    width: calc(100% - 44px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-5px);/*so para cinma*/
+
+}
 form > input[type=submit] {
     display: block;
     font-size: 1em;
-    width: 100%; /*100% do conteiner % nao da largura vw*/
-    height: 40%;
+    width: 100%;
+    height: 35px;
     background-color: #86858B;
     color: #DADADA;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;   
+    border-radius: 8px;
+    cursor: pointer;
 }
+
 form > input[type=submit]:hover {
     background-color: #a7a7aa;
 }
