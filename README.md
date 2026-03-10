@@ -1,3 +1,6 @@
+## 📸 Preview do projeto
+
+![Preview do projeto](imagens/preview.png)
 🔐 Projeto Login
 📖 Sobre o projeto
 
